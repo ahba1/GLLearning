@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GeographyLearningApp</string>
+    <string name="cube_view_first">天</string>
+    <string name="cube_view_second">人</string>
+    <string name="cube_view_third">地</string>
+    <string name="input_id">请输入账号</string>
+    <string name="input_psw">请输入密码</string>
+    <string name="input_email">请输入邮箱地址</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="heat">热</string>
+    <string name="wind">风</string>
+    <string name="light">光</string>
+    <string name="water">水</string>
+    <string name="climate">气候</string>
+    <string name="market">市场</string>
+    <string name="translation">交通</string>
+    <string name="industry">产业</string>
+    <string name="environment">环境</string>
+    <string name="area">区位</string>
+    <string name="vegetation">植被</string>
+    <string name="geology">地质</string>
+    <string name="location">位置</string>
+    <string name="hydrology">水文</string>
+    <string name="terrain">地形</string>
+    <string name="network_error">系统繁忙请稍后再试</string>
+    <string name="input_error">账号或者密码不能为空</string>
+    <string name="register_conflict">用户已存在</string>
+    <string name="user_not_existed">账号或者密码输入错误</string>
+</resources>

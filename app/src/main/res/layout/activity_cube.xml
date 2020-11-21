@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ahba1="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.cube.CubeActivity">
+
+    <com.ahba1.geographylearningapp.views.cube.CubeView
+        android:id="@+id/cube"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ahba1:line_size="10"
+        ahba1:button_size="30"
+        ahba1:text_color="@color/cubeView_text_color"
+        ahba1:text_size="40"
+        ahba1:first_layer_text="@string/cube_view_first"
+        ahba1:second_layer_text="@string/cube_view_second"
+        ahba1:third_layer_text="@string/cube_view_third"/>
+
+</RelativeLayout>

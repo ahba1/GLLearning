@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CubeView">
+        <attr name="button_size" format="float"/>
+        <attr name="button_color" format="color"/>
+        <attr name="line_color" format="color"/>
+        <attr name="line_size" format="float"/>
+        <attr name="angle" format="float"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="float"/>
+        <attr name="first_layer_text" format="string"/>
+        <attr name="second_layer_text" format="string"/>
+        <attr name="third_layer_text" format="string"/>
+    </declare-styleable>
+</resources>

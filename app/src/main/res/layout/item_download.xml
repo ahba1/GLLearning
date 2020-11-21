@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ahba1="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_download_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu_line"
+    android:clickable="true"
+    android:paddingTop="12dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_download_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:text="......."
+        android:textSize="16dp"/>
+
+    <com.daimajia.numberprogressbar.NumberProgressBar
+        android:id="@+id/item_download_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ahba1:progress_max="100"
+        ahba1:progress_current="0"/>
+
+    <TextView
+        android:id="@+id/item_download_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/item_download_name"
+        android:layout_below="@id/item_download_progress"
+        android:layout_marginTop="4dp"
+        android:singleLine="true"
+        android:text="12.4k"/>
+
+
+</LinearLayout>

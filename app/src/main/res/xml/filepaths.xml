@@ -1,0 +1,6 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <files-path
+        name="cube"
+        path="/file/."/>
+</paths>
